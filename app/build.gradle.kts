@@ -1,7 +1,11 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("maven-publish")
 }
+
+group = "com.netplus.qrtokensdk"
+version = "1.0.0"
 
 android {
     namespace = "com.netplus.qrtokensdk"
