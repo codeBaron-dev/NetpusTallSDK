@@ -1,7 +1,10 @@
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
+    id("maven-publish")
 }
+group = "com.netplus.qrengine"
+version = "1.0.0"
 
 android {
     namespace = "com.netplus.qrengine"
